@@ -1,0 +1,41 @@
+{
+  "params": {
+    "objective": "binary",
+    "metric": "['auc', 'binary_logloss']",
+    "boosting_type": "gbdt",
+    "scale_pos_weight": 7.705653021442496,
+    "num_leaves": 88,
+    "learning_rate": 0.1591356375144793,
+    "subsample": 0.9782885398550217,
+    "colsample_bytree": 0.8092098664535442,
+    "reg_alpha": 1.0047309475715305,
+    "reg_lambda": 2.645887314619399,
+    "min_child_samples": 48,
+    "min_split_gain": 0.032651177029117906,
+    "random_state": 42,
+    "n_jobs": -1,
+    "verbosity": -1,
+    "force_col_wise": true
+  },
+  "threshold": 0.58,
+  "feature_names": [
+    "SR2",
+    "SR1",
+    "T1",
+    "T3",
+    "T2",
+    "T4",
+    "GH3",
+    "GH2",
+    "GH1",
+    "GH4",
+    "R1",
+    "R2",
+    "S1",
+    "S2",
+    "Lat",
+    "Long"
+  ],
+  "categorical_features": [],
+  "best_iteration": 95
+}
